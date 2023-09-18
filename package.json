@@ -24,6 +24,9 @@
     "stripe": "^13.5.0",
     "validator": "^13.11.0"
   },
+  “engines”: {
+  “node”: “>=14 <15”
+  },
   "devDependencies": {
     "@types/bcryptjs": "^2.4.3",
     "@types/nodemailer": "^6.4.9",
