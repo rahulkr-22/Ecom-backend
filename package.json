@@ -7,6 +7,9 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
+  "engines":{
+       "node" : ">=14  <15"
+  },
   "author": "",
   "license": "ISC",
   "dependencies": {
@@ -23,9 +26,6 @@
     "nodemailer": "^6.9.4",
     "stripe": "^13.5.0",
     "validator": "^13.11.0"
-  },
-  “engines”: {
-  “node”: “>=14 <15”
   },
   "devDependencies": {
     "@types/bcryptjs": "^2.4.3",
